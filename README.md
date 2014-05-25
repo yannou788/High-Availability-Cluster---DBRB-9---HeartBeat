@@ -25,8 +25,8 @@ Second Hard Drive : For the Cluster
   
 ---  
 
-  - chmod +x Mysql-installation.sh 
-  - ./Mysql-installation.sh --primary
+  - chmod +x Cluster-mysql-installation.sh 
+  - ./Cluster-mysql-installation.sh --primary
   
 
 **On the other Servers**
@@ -44,5 +44,5 @@ Second Hard Drive : For the Cluster
 
 ---
   
-  - chmod +x Mysql-installation.sh 
-  - ./Mysql-installation.sh
+  - chmod +x Cluster-mysql-installation.sh 
+  - ./Cluster-mysql-installation.sh
