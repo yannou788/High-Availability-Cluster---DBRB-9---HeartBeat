@@ -13,36 +13,36 @@ Second Hard Drive : For the Cluster
 **On the primary Server**
 =========================
 
-  - chmod +x Cluster-installation.php
+  - chmod +x Cluster-installation.sh
   
-  - ./Cluster-installation.php --primary
+  - ./Cluster-installation.sh --primary
   
 ---
   
-  - chmod +x Cluster-php-installation.php
+  - chmod +x Cluster-php-installation.sh
   
-  - ./Cluster-php-installation.php --primary
+  - ./Cluster-php-installation.sh --primary
   
 ---  
 
-  - chmod +x Mysql-installation.php 
-  - ./Mysql-installation.php --primary
+  - chmod +x Mysql-installation.sh 
+  - ./Mysql-installation.sh --primary
   
 
 **On the other Servers**
 ========================
 
-  - chmod +x Cluster-installation.php
+  - chmod +x Cluster-installation.sh
   
-  - ./Cluster-installation.php
-  
----
-  
-  - chmod +x Cluster-php-installation.php
-  
-  - ./Cluster-php-installation.php
+  - ./Cluster-installation.sh
   
 ---
   
-  - chmod +x Mysql-installation.php 
-  - ./Mysql-installation.php
+  - chmod +x Cluster-php-installation.sh
+  
+  - ./Cluster-php-installation.sh
+
+---
+  
+  - chmod +x Mysql-installation.sh 
+  - ./Mysql-installation.sh
