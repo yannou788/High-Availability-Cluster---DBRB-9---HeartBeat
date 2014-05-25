@@ -3,12 +3,12 @@ HA Cluster DRBD9 HeartBeat
 
 After downloading these scripts, you will need to run this in the linux console. 
 
-In the best case do it on a new installation with two disk
-------------------------------------------------------------
+In the best case do it on a new installation with two hard drives
+-----------------------------------------------------------------
 
-First Disk : System
+First Hard Drive : Linux System {Ubuntu}
 
-Second Disk : For the Cluster
+Second Hard Drive : For the Cluster
 
 **On the primary Server**
 =========================
