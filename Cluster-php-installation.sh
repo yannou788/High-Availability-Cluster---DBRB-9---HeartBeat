@@ -116,13 +116,14 @@ fi
 			is_succed
 
 		banner_middle "Update the haresources file"
-			nha=$(sed -e 's/.*/& apache2/' /etc/ha.d/haresources)
-			echo $nha > /etc/ha.d/haresources
+		nha=$(sed -e 's/.*/& apache2/' /etc/ha.d/haresources)
+		echo $nha > /etc/ha.d/haresources
 			is_succed
 
 		banner_middle "Heartbeat Reload"
-			/etc/init.d/heartbeat reload
+		/etc/init.d/heartbeat reload
 			is_succed
+	
 	else
 		echo 
 			color -red "Error : The file haresources does not exist"
