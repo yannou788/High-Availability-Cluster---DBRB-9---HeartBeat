@@ -1,7 +1,7 @@
 HA Cluster DRBD9 HeartBeat
 ==========================
 
-After downloading these scripts, you will need to run this in the linux console. 
+After downloading these scripts, you will need to run this into the linux terminal. 
 
 In the best case do it on a new installation with two hard drives
 -----------------------------------------------------------------
